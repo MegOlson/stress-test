@@ -29,11 +29,11 @@ p {
   margin: 20px;
   font-size: 20px;
 }
-img{
+img {
   width: 200px;
   height: 250px;
 }
-.panel #average, #bad, #good {
+.panel2 {
   margin: 70px;
   border: 7px solid white;
   background-color: #fffece;
