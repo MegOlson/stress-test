@@ -3,6 +3,18 @@
   text-align: center;
   padding: 30px;
 }
-.col-md-4{
-  width: 25%;
+button {
+  margin-top: 20px;
+}
+body {
+  font-size: 16px;
+}
+#bad {
+  display: none;
+}
+#good {
+  display: none;
+}
+#average {
+  display: none;
 }
