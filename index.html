@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+        <h4><em>Check all that apply</em></h4>
+      </div>
+      <form id="stress-test">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="form-group" id="warning-sign">
+              <h5>Warning Signs:</h5>
+              <input type="checkbox" name="warning-sign" value="sleeploss"> Loss of sleep<br>
+              <input type="checkbox" name="warning-sign" value="anger"> Anger<br>
+              <input type="checkbox" name="warning-sign" value="noMotivation"> Lack of motivation<br>
+              <input type="checkbox" name="warning-sign" value="restlessness"> Restlessness<br>
+              <input type="checkbox" name="warning-sign" value="sadness"> Sadness/Depression<br>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group" id="symptoms">
+              <h5>Physical Symptoms:</h5>
+              <input type="checkbox" name="symptoms" value="highBp"> High blood pressure<br>
+              <input type="checkbox" name="symptoms" value="headache"> Frequent headaches<br>
+              <input type="checkbox" name="symptoms" value="gastro"> Gastrointestinal problems<br>
+              <input type="checkbox" name="symptoms" value="diabetes"> Diabetes<br>
+              <input type="checkbox" name="symptoms" value="heartD"> Heart disease<br>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="form-group" id="coping-methods">
+              <h5>Coping Methods:</h5>
+              <input type="checkbox" name="coping-methods" value="sleep"> Get more sleep<br>
+              <input type="checkbox" name="coping-methods" value="exercise"> Exercise<br>
+              <input type="checkbox" name="coping-methods" value="breathing"> Deep breathing exercises<br>
+              <input type="checkbox" name="coping-methods" value="caffeine"> Avoid caffeine<br>
+              <input type="checkbox" name="coping-methods" value="diary"> Keep a stress diary<br>
+            </div>
+          </div>
+        </div>
+        <button type="submit">Submit Survey</button>
+      </form>
+    </div>
+  </body>
+</html>
