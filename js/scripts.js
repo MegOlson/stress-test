@@ -20,7 +20,6 @@ $(document).ready(function() {
     else {
       $("#good").show();
     }
-
     event.preventDefault();
   });
 });
