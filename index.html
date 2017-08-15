@@ -11,48 +11,63 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h2>Stress Test</h2>
+        <h1>Stress Test</h1>
         <h4><em>Check all that apply</em></h4>
       </div>
       <form id="stress-test">
         <div class="row">
           <div class="col-md-4">
-            <div class="form-group" id="warning-sign">
-              <h4>Warning Signs:</h4>
-              <input type="checkbox" name="input" value="sleeploss"> Loss of sleep<br>
-              <input type="checkbox" name="input" value="anger"> Anger<br>
-              <input type="checkbox" name="input" value="noMotivation"> Lack of motivation<br>
-              <input type="checkbox" name="input" value="restlessness"> Restlessness<br>
-              <input type="checkbox" name="input" value="sadness"> Sadness/Depression<br>
+            <div class="panel">
+              <div class="form-group" id="warning-sign">
+                <h4>Warning Signs:</h4>
+                <input type="checkbox" name="input" value="sleeploss"> Loss of sleep<br>
+                <input type="checkbox" name="input" value="anger"> Anger<br>
+                <input type="checkbox" name="input" value="noMotivation"> Lack of motivation<br>
+                <input type="checkbox" name="input" value="restlessness"> Restlessness<br>
+                <input type="checkbox" name="input" value="sadness"> Sadness/Depression<br>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="form-group" id="symptoms">
-              <h4>Physical Symptoms:</h4>
-              <input type="checkbox" name="input" value="highBp"> High blood pressure<br>
-              <input type="checkbox" name="input" value="headache"> Frequent headaches<br>
-              <input type="checkbox" name="input" value="gastro"> Gastrointestinal problems<br>
-              <input type="checkbox" name="input" value="diabetes"> Diabetes<br>
-              <input type="checkbox" name="input" value="heartD"> Heart disease<br>
+            <div class="panel">
+              <div class="form-group" id="symptoms">
+                <h4>Physical Symptoms:</h4>
+                <input type="checkbox" name="input" value="highBp"> High blood pressure<br>
+                <input type="checkbox" name="input" value="headache"> Frequent headaches<br>
+                <input type="checkbox" name="input" value="gastro"> Gastrointestinal problems<br>
+                <input type="checkbox" name="input" value="diabetes"> Diabetes<br>
+                <input type="checkbox" name="input" value="heartD"> Heart disease<br>
+              </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="form-group" id="coping-methods">
-              <h4>Coping Methods:</h4>
-              <input type="checkbox" name="coping-methods" value="sleep"> Get more sleep<br>
-              <input type="checkbox" name="coping-methods" value="exercise"> Exercise<br>
-              <input type="checkbox" name="coping-methods" value="breathing"> Deep breathing exercises<br>
-              <input type="checkbox" name="coping-methods" value="caffeine"> Avoid caffeine<br>
-              <input type="checkbox" name="coping-methods" value="diary"> Keep a stress diary<br>
+            <div class="panel">
+              <div class="form-group" id="coping-methods">
+                <h4>Coping Methods:</h4>
+                <input type="checkbox" name="coping-methods" value="sleep"> Get more sleep<br>
+                <input type="checkbox" name="coping-methods" value="exercise"> Exercise<br>
+                <input type="checkbox" name="coping-methods" value="breathing"> Deep breathing exercises<br>
+                <input type="checkbox" name="coping-methods" value="caffeine"> Avoid caffeine<br>
+                <input type="checkbox" name="coping-methods" value="diary"> Keep a stress diary<br>
+              </div>
             </div>
             <button type="submit">Submit Survey</button>
           </div>
         </div>
       </form>
       <div>
-        <p id="bad">Bad!<br>Your results indicate that you're experiencing a significant amount of stress related warning signs and physical symtoms.<a href="https://www.helpguide.org/articles/stress/stress-management.htm"> Here</a> are some resources to provide information on stress management. If symptoms worsen, medical help may need to be pursued.</p>
-        <p id="average">Average!<br>Your results indicate that you're experiencing some signs of stress, however nothing too severe. If symptoms or warning signs worsen, reference some of the coping methods listed within the third collumn.</p>
-        <p id="good">Good!<br>Your results indicate that you're experiencing mild physical symptoms and warning signs which are balanced with your coping methods. Keep up the good stress management!</p>
+        <div class="panel" id="bad">
+          <h3>Bad!</h3>
+          <p>Your results indicate that you're experiencing a significant amount of stress related warning signs and physical symtoms.<a href="https://www.helpguide.org/articles/stress/stress-management.htm"> Here</a> are some resources to provide information on stress management. If symptoms worsen, medical help may need to be pursued.</p>
+        </div>
+        <div class="panel" id="average">
+          <h3>Average!</h3>
+          <p>Your results indicate that you're experiencing some signs of stress, however nothing too severe. If symptoms or warning signs worsen, reference some of the coping methods listed within the third collumn.</p>
+        </div>
+        <div class="panel" id="good">
+          <h3>Good!</h3>
+          <p>Your results indicate that you're experiencing mild physical symptoms and warning signs which are balanced with your coping methods. Keep up the good stress management!</p>
+        </div>
       </div>
     </div>
   </body>

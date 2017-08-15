@@ -23,11 +23,25 @@ body {
 }
 button {
   background-color: #b49fc4;
-  color: lavender;
+  color: white;
 }
 p {
-  padding: 100px;
-  border: 2px solid black;
-  margin: 100px;
+  margin: 20px;
   font-size: 20px;
+}
+img{
+  width: 200px;
+  height: 250px;
+}
+.panel #average, #bad, #good {
+  margin: 70px;
+  border: 7px solid white;
+  background-color: #fffece;
+  padding: 20px;
+  text-align: center;
+}
+.panel {
+  padding-left: 20px;
+  background-color: #ffffea;
+  border: 5px solid #e7ccff;
 }
